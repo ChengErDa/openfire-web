@@ -1,0 +1,46 @@
+
+/**
+ * 服务器地址 
+ */
+var SERVER_HOST = "120.25.62.37";
+
+/**
+ * 服务器端口 
+ */
+var SERVER_PORT = "5222";
+
+/**
+ * 服务器域名 
+ */
+var SERVER_DOMAIN = "120.25.62.37";
+
+/**
+ * 默认Resource配置
+ */
+var DEFAULT_RESOURCE = "web";
+
+/**
+ * conference服务配置
+ */
+var DEFAULT_CONFERENCE_SERVER = "conference."+SERVER_DOMAIN;
+
+var BACKEND_SERVER_TIMERVAL = 1;
+
+var BACKEND_SERVER_HTTPBASE = "/JHB/";
+
+var BACKEND_SERVER_TYPE = "binding";
+
+
+/**
+ * 调试模式
+ */
+var DEBUG = true;
+
+
+/**
+ * warn:  0
+ * error: 1
+ * info:  2
+ * debug: 4 
+ */
+var DEBUG_LVL = 4; 
